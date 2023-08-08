@@ -1,19 +1,55 @@
+const body = document.querySelector("body")
+const buttonLightTheme = document.querySelector(".light-theme")
+const buttonDarkTheme = document.querySelector(".dark-theme")
+
 const buttonPlay = document.querySelector(".play")
 const buttonPause = document.querySelector(".pause")
 const buttonStop = document.querySelector(".stop")
-const buttonSet = document.querySelector(".set")
+const buttonAdd = document.querySelector(".add")
+const buttonTake = document.querySelector(".take")
 const buttonSoundOn = document.querySelector(".sound-on")
 const buttonSoundOff = document.querySelector(".sound-off")
+const buttonSoundForest = document.querySelector(".sound-forest")
+const buttonSoundRain = document.querySelector(".sound-rain")
+const buttonSoundCoffeeShop = document.querySelector(".sound-coffee-shop")
+const buttonSoundFireplace = document.querySelector(".sound-fireplace")
+
+const cardForest = document.querySelector(".card-forest")
+const cardRain = document.querySelector(".card-rain")
+const cardCoffeeShop = document.querySelector(".card-coffee-shop")
+const cardFireplace = document.querySelector(".card-fireplace")
+
+const inputForestVolume = document.querySelector("#forest-volume")
+const inputRainVolume = document.querySelector("#rain-volume")
+const inputCoffeeShopVolume = document.querySelector("#coffee-shop-volume")
+const inputFireplaceVolume = document.querySelector("#fireplace-volume")
+
 const minutesDisplay = document.querySelector(".minutes")
 const secondsDisplay = document.querySelector(".seconds")
 
 export const elements = {
+  body,
+  buttonLightTheme,
+  buttonDarkTheme,
   buttonPlay,
   buttonPause,
   buttonStop,
-  buttonSet,
+  buttonAdd,
+  buttonTake,
   buttonSoundOn,
   buttonSoundOff,
+  buttonSoundForest,
+  buttonSoundRain,
+  buttonSoundCoffeeShop,
+  buttonSoundFireplace,
+  cardForest,
+  cardRain,
+  cardCoffeeShop,
+  cardFireplace,
+  inputForestVolume,
+  inputRainVolume,
+  inputCoffeeShopVolume,
+  inputFireplaceVolume,
   minutesDisplay,
   secondsDisplay
 }
