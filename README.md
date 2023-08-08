@@ -37,8 +37,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto versão 1.0 completo [CLICANDO AQUI](https://www.figma.com/file/3Ncq7UA9x0hik8G7TIrZVp/Explorer-Stage-05-Projeto-01-(Copy)?type=design&node-id=0-1&mode=design&t=JecuZDodcecofnk7-0)
-Você pode visualizar o layout do projeto versão 2.0 completo [CLICANDO AQUI](https://www.figma.com/file/PnzVBnlgJRXfVNRTXibDfh/Stage-05---Focus-Timer-2.0-(Copy)?type=design&mode=design&t=JecuZDodcecofnk7-0)
+Você pode visualizar o layout do projeto versão 1.0 completo [CLICANDO AQUI](https://www.figma.com/file/3Ncq7UA9x0hik8G7TIrZVp/Explorer-Stage-05-Projeto-01-(Copy)?type=design&node-id=0-1&mode=design&t=JecuZDodcecofnk7-0) <br>
+Você pode visualizar o layout do projeto versão 2.0 completo [CLICANDO AQUI](https://www.figma.com/file/PnzVBnlgJRXfVNRTXibDfh/Stage-05---Focus-Timer-2.0-(Copy)?type=design&mode=design&t=JecuZDodcecofnk7-0) <br>
 Você pode visualizar o layout do projeto versão 3.0 completo [CLICANDO AQUI](https://www.figma.com/file/7UtKzFhUup9u9PquatDUfO/Stage-05---Dark-Mode-FocusTimer-(Copy)?type=design&mode=design&t=JecuZDodcecofnk7-0)
-<br>
+<br><br>
 É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
