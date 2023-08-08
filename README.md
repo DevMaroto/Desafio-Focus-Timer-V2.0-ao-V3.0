@@ -33,10 +33,12 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 
 
-- [Acesse o projeto finalizado, online](https://devmaroto.github.io/Desafio-1-stage-5-Biscoito-da-Sorte-Explorer-Turma-11/)
+- [Acesse o projeto finalizado, online](https://devmaroto.github.io/Desafio-Focus-Timer-V2.0-ao-V3.0/)
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto completo [CLICANDO AQUI](https://www.figma.com/file/AtrrkngCECUV5jPGoEOaVD/Biscoito-da-Sorte-(Community)?type=design&node-id=0-1&mode=design&t=JgmspGMlReTPFea3-0)
+Você pode visualizar o layout do projeto versão 1.0 completo [CLICANDO AQUI](https://www.figma.com/file/3Ncq7UA9x0hik8G7TIrZVp/Explorer-Stage-05-Projeto-01-(Copy)?type=design&node-id=0-1&mode=design&t=JecuZDodcecofnk7-0)
+Você pode visualizar o layout do projeto versão 2.0 completo [CLICANDO AQUI](https://www.figma.com/file/PnzVBnlgJRXfVNRTXibDfh/Stage-05---Focus-Timer-2.0-(Copy)?type=design&mode=design&t=JecuZDodcecofnk7-0)
+Você pode visualizar o layout do projeto versão 3.0 completo [CLICANDO AQUI](https://www.figma.com/file/7UtKzFhUup9u9PquatDUfO/Stage-05---Dark-Mode-FocusTimer-(Copy)?type=design&mode=design&t=JecuZDodcecofnk7-0)
 <br>
 É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
