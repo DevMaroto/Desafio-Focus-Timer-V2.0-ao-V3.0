@@ -5,16 +5,11 @@ import Events from "./events.js"
 import { elements } from "./elements.js"
 
 const {
-  buttonPause,
-  buttonPlay,
-  buttonSet,
-  buttonStop,
-  minutesDisplay,
-  secondsDisplay,
+  body, buttonLightTheme, buttonDarkTheme, buttonPlay, buttonPause, buttonStop, buttonSoundForest, buttonSoundRain, buttonSoundCoffeeShop, buttonSoundFireplace, cardForest, cardRain, cardCoffeeShop, cardFireplace, minutesDisplay, secondsDisplay
 } = elements
 
 const controls = Controls({
-  buttonPause, buttonPlay, buttonSet, buttonStop
+  body, buttonLightTheme, buttonDarkTheme, buttonPlay, buttonPause, buttonStop, cardForest, cardRain, cardCoffeeShop, cardFireplace, buttonSoundForest, buttonSoundRain, buttonSoundCoffeeShop, buttonSoundFireplace
 })
 
 const timer = Timer({
