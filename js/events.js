@@ -1,15 +1,20 @@
 import { elements } from "./elements.js"
 const {
-  buttonPause,
-  buttonPlay,
-  buttonSet,
-  buttonSoundOff,
-  buttonSoundOn,
-  buttonStop,
+  buttonLightTheme, buttonDarkTheme, buttonPlay, buttonPause, buttonStop, buttonAdd, buttonTake, buttonSoundForest, buttonSoundRain, buttonSoundCoffeeShop, buttonSoundFireplace, inputForestVolume, inputRainVolume, inputCoffeeShopVolume, inputFireplaceVolume
 
 } = elements
 
 export default function ({controls, timer, sound}) {
+  buttonLightTheme.addEventListener("click", function() {
+    controls.changeTheme()
+    sound.pressButton()
+  })
+
+  buttonDarkTheme.addEventListener("click", function() {
+    controls.changeTheme()
+    sound.pressButton()
+  })
+
   buttonPlay.addEventListener("click", function() {
     controls.play()
     timer.countdown()
@@ -28,27 +33,49 @@ export default function ({controls, timer, sound}) {
     sound.pressButton()
   })
 
-  buttonSoundOn.addEventListener("click", function() {
-    buttonSoundOn.classList.add("hide")
-    buttonSoundOff.classList.remove("hide")
-    sound.bgAudio.pause()
-  })
-  
-  buttonSoundOff.addEventListener("click", function() {
-    buttonSoundOn.classList.remove("hide")
-    buttonSoundOff.classList.add("hide")
-    sound.bgAudio.play()
+  buttonAdd.addEventListener("click", function() {
+    controls.reset()
+    timer.add()
+    sound.pressButton()
   })
 
-  buttonSet.addEventListener("click", function() {
-    let newMinutes = controls.getMinutes()
-
-    if(!newMinutes) {
-      timer.reset()
-      return
-    }
-
-    timer.updateDisplay(newMinutes, 0)
-    timer.updateMinutes(newMinutes)
+  buttonTake.addEventListener("click", function() {
+    controls.reset()
+    timer.take()
+    sound.pressButton()
   })
+
+  buttonSoundForest.addEventListener("click", function() {
+    controls.soundForest()
+    sound.pressButton()
+    sound.audioForest()
+    sound.resetForestVolume()
+  })
+
+  buttonSoundRain.addEventListener("click", function() {
+    controls.soundRain()
+    sound.pressButton()
+    sound.audioRain()
+    sound.resetRainVolume()
+  })
+
+  buttonSoundCoffeeShop.addEventListener("click", function() {
+    controls.soundCoffeeShop()
+    sound.pressButton()
+    sound.audioCoffeeShop()
+    sound.resetCoffeeShopVolume()
+  })
+
+  buttonSoundFireplace.addEventListener("click", function() {
+    controls.soundFireplace()
+    sound.pressButton()
+    sound.audioFireplace()
+    sound.resetFireplaceVolume()
+  })
+
+  inputForestVolume.addEventListener("input", sound.setAudioVolume)
+  inputRainVolume.addEventListener("input", sound.setAudioVolume)
+  inputCoffeeShopVolume.addEventListener("input", sound.setAudioVolume)
+  inputFireplaceVolume.addEventListener("input", sound.setAudioVolume)
+ 
 }
