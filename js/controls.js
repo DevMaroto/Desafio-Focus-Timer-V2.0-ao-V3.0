@@ -1,15 +1,24 @@
 export default function Controls({
-  buttonPause,
+  buttonLightTheme,
+  buttonDarkTheme,
+  body,
   buttonPlay,
-  buttonSet,
-  buttonStop
+  buttonPause,
+  cardForest,
+  cardRain,
+  cardCoffeeShop,
+  cardFireplace
 }) {
+
+  function changeTheme() {
+    buttonLightTheme.classList.toggle("hide")
+    buttonDarkTheme.classList.toggle("hide")
+    body.classList.toggle("dark-mode")
+  }
 
   function play() {
     buttonPlay.classList.add("hide")
     buttonPause.classList.remove("hide")
-    buttonSet.classList.add("hide")
-    buttonStop.classList.remove("hide")
   }
 
   function pause() {
@@ -20,21 +29,22 @@ export default function Controls({
   function reset() {
     buttonPlay.classList.remove("hide")
     buttonPause.classList.add("hide")
-    buttonSet.classList.remove("hide")
-    buttonStop.classList.add("hide")
   }
 
-  function getMinutes() {
-    let newMinutes = prompt("Quantos minutos?")
-    if(!newMinutes) {
-      return false
-    }
-
-    return newMinutes
-    
+  function soundForest() {
+    cardForest.classList.toggle("active")
+  }
+  function soundRain() {
+    cardRain.classList.toggle("active")
+  }
+  function soundCoffeeShop() {
+    cardCoffeeShop.classList.toggle("active")
+  }
+  function soundFireplace() {
+    cardFireplace.classList.toggle("active")
   }
 
   return {
-    reset, play, pause, getMinutes
+    changeTheme, play, pause, reset, soundForest, soundRain, soundCoffeeShop, soundFireplace 
   }
 }
