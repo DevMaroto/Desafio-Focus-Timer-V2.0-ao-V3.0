@@ -23,7 +23,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Git e Github
 - Figma
 
-## 💻 Funcionalidades
+## 💻 Funcionalidades Extras 
 - Botão Light e Dark: Alterna entre o modo Light e modo Dark
 - Play: Aciona o timer
 - Stop: Para o timer
