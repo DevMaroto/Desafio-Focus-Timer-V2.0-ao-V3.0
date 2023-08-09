@@ -266,3 +266,15 @@ body.dark-mode aside input[type="range"]::-moz-range-track,
 body.dark-mode aside input[type="range"]::-moz-range-thumb {
   background-color: var(--bg-light);
 }
+
+@media (max-width: 700px) {
+  .box-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  aside {
+    align-self: center;
+  }
+}
